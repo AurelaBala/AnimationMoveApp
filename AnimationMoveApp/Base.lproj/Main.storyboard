@@ -46,6 +46,11 @@
                             <constraint firstItem="Yfb-Ad-Vpq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="142" id="wbV-6s-Imi"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="myImageView" destination="yke-sc-GVs" id="wSC-Js-Hrl"/>
+                        <outlet property="myLabel" destination="Yfb-Ad-Vpq" id="epQ-aJ-hdD"/>
+                        <outlet property="myTextField" destination="IcL-YB-B32" id="Ume-SN-uab"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
