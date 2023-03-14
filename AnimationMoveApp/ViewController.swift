@@ -16,11 +16,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        UIView.animate(withDuration: 2.0) {
-                self.myLabel.center.x += self.view.bounds.width
-                self.myTextField.center.x += self.view.bounds.width
-                self.myImageView.center.x += self.view.bounds.width
-            }
+        UIView.animate(withDuration: 3.4, delay: 2.3, options:
+        [.repeat, .autoreverse], animations: {
+            self.myLabel.center.x += self.view.bounds.width
+            self.myTextField.center.x += self.view.bounds.width
+            self.myImageView.center.x += self.view.bounds.width
+        }, completion: nil)
         
     }
 
